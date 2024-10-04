@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        display: grid;
+        max-width: 100%;
+        justify-items: stretch;
+        margin: 0;
+    } 
+    
+    h1 {
+        font-size: 3rem;
+    }
+
+    .logo {
+        font-size: 20px
+    }
+
+    nav {
+        display: grid;
+        max-width: 100%;
+        justify-content: center;    
+    }
+
+    .specialization {
+        font-size: 2.5rem;
+    }
+
+    .myImg {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .profile-container {
+        padding: 8px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    #number, .closing {
+        font-size: 24px;
+    }
+
+    #about, #projects, #experience, #about{
+        margin: 5rem 2rem 5rem 2rem;
+    }
+
+    #contact {
+        margin-top: 5rem;
+    }
+    .introduction {
+        font-size: 1.5rem;
+    }
+} 
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+    body {
+        display: grid;
+        max-width: 100%;
+        justify-items: stretch;
+        margin: 0;
+    }  
+
+    nav {
+        display: grid;
+        max-width: 100%;
+        justify-content: center;    
+    }
+
+    .introduction {
+        font-size: 1.5rem;
+    }
+
+
+    .logo {
+        font-size: 20px;
+        display: absolute;
+    }
+
+    .myImg {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    
+    #number, .closing {
+        font-size: 24px;
+    }
+
+
+    .profile-container {
+        padding: 8px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    #about, #projects, #experience, #about{
+        margin: 5rem 2rem 5rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 968px) {
+
+    body {
+        display: grid;
+        max-width: 100%;
+        justify-items: stretch;
+        margin: 0;
+    }
+    
+    .logo {
+        font-size: 20px
+    }
+    .container {
+        padding: 30px;
+    }
+    .header, .footer {
+        text-align: left;
+    }
+
+    .myImg {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    nav {
+        display: grid;
+        max-width: 100%;
+        justify-content: center;    
+    }
+
+    #number, .closing {
+        font-size: 24px;
+    }
+
+    .profile-container {
+        padding: 8px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+    .introduction {
+        font-size: 1.5rem;
+    }
+    
+    #about, #projects, #experience, #about{
+        margin: 5rem 2rem 5rem 2rem;
+    }
+} 
