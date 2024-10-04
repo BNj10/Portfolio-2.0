@@ -39,14 +39,14 @@ body {
     }
 
     p {
-        font-size: 3rem;
+        font-size: 24px;
     }
 
     #number, .closing {
         font-size: 24px;
     }
 
-    #about, #projects, #experience, #about{
+    #about, #projects, #experience {
         margin: 5rem 2rem 5rem 2rem;
     }
 
@@ -99,7 +99,7 @@ body {
     }
 
     p {
-        font-size: 3rem;
+        font-size: 24px;
     }
 
     #about, #projects, #experience, #about{
@@ -107,7 +107,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 968px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     body {
         display: grid;
@@ -146,7 +146,7 @@ body {
     }
 
     p {
-        font-size: 3rem;
+        font-size: 24px;
     }
     .introduction {
         font-size: 1.5rem;

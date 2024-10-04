@@ -42,6 +42,7 @@ nav {
     list-style: none;
     font-size: 1.7rem;
     margin: auto;
+    padding: 1rem;
 }
 
 .nav-links a {
@@ -130,17 +131,46 @@ a:hover {
 #about {
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 5rem;
     margin: 8rem;
 }
 
 .introduction {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
-.about-item {
+.education {
+    padding: 1.5rem;
+}
+
+.HaboutMe {
+    display: flex;
+    margin-bottom: 8rem; 
+}
+
+.education-item2, .education-item3 {
+    color: white;
+}
+.education-container {
+    display: flex;  
+    justify-content: end;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 1.5rem;
+}
+
+.education-content{
+    color: black;
+}
+
+.uni {
+    width: 10rem;
+    height: 10rem;
+}
+
+.about-item, .education-container {
     border: 3px solid black;
     border-radius: 1rem;
     padding: 1.5rem;
@@ -163,7 +193,7 @@ a:hover {
     font-weight: 700;
 }
 .project-container {
-    display: grid;;
+    display: grid;
     gap: 1rem;
     margin: 8rem;
 }
@@ -177,7 +207,7 @@ a:hover {
 .project-content {
     display: grid;
     border: 3px solid black;
-    border-radius: 1rem;
+    border-radius: 2rem;
     gap: 1rem;
     padding: 3rem;
 }
@@ -246,18 +276,18 @@ article {
     padding: 3.5rem;
 }
 
-.contactEmail, .contactNo{
+.contactEmail, .contactNo, .address{
     display: flex;
-    justify-content:first baseline;
+    justify-content: first baseline;
     gap: 0.5rem;
 
 }
-.emailIcon {
+.emailIcon, .numberIcon, .addIcon {
     width: 2.5rem;
     height: 2.5rem;
 }
 
-#email {
+#email, #add, #number {
     font-size: 1.5rem;
     color: white;
     margin: 0.5rem;
@@ -278,7 +308,7 @@ article {
     display: grid;
     border: 3px solid black;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 
